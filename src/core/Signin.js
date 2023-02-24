@@ -7,8 +7,8 @@ import Base from './Base';
 const Signin = () => {
   
   const [values,setValues] = useState({
-    email:"b@service.com",
-    password:"12345",
+    email:"",
+    password:"",
     error:"",
     loading:false,
     didRedirect:false
@@ -109,7 +109,7 @@ const Signin = () => {
       {errorMessage()}
       {signInForm()}
       {performRedirect()}
-      <p className='text-white text-center'>{JSON.stringify(values)}</p>
+//       <p className='text-white text-center'>{JSON.stringify(values)}</p>
     </Base>
    
   )
