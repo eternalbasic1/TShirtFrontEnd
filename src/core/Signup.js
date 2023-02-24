@@ -128,7 +128,7 @@ const Signup = () => {
       {successMessage()}
       {signUpForm()} 
       {/* we have parenthises here and in button tag above onSubmit doesn't have it  because here in {signUpForm()} we want to fire up the code immediately without waiting of anything but above in {onSubmit} with () means just wait for some event or some time  */}
-      <p className="text-white text-center">{JSON.stringify(values)}</p>
+//       <p className="text-white text-center">{JSON.stringify(values)}</p>
     </Base>
    
   )
