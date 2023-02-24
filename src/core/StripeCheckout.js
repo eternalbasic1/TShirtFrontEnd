@@ -72,7 +72,7 @@ const StripeCheckout = ({
         // console.log(getFinalAmount());
         return isAuthenticated() ? (
             <StripeCheckoutButton
-            stripeKey= "pk_test_51MRsFTSE2ExuA5JfEUWG9dG4ZDXA0XkCBV94kJJ2q8ef8tmkZ5ia5FEewfLNimCkW3qa4sL2y8flQXNwu1HG8LKx00JXUxcpHX"
+            stripeKey= "pk_test_51MRsFTSE2ExuA5JfrCVvEDXbfttJ7PAbaElmZkeP0yjCKRAMifDKH8nnVRcS5Mj1OMhx7MYf49n9MEoeccGmXOeC004TwMABlH"
             token={makePayment}
             amount={getFinalAmount() * 100}
             name="Buy TShirts"
